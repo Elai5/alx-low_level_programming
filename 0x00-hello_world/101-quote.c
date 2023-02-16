@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main -  a new program with asciii both std
+ * main - a new program with asciii both std
  * Return 1 (wow)
 */
 int main(void)
