@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-*main - a new program
+*main - This prints new program
 *Return: 0 (done)
 */
 int main(void)
