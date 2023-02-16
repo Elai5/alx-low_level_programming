@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
-*main - This prints new program
-*Return: 0 (done)
+/**
+ * main - a new program
+ *Return: 0 (done)
 */
 int main(void)
 {
