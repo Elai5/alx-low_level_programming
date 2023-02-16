@@ -1,7 +1,7 @@
+#include <stdio.h>
 /*
-#Include <stdio.h>*
 *main - a new program
-*Return:0 (done)
+*Return: 0 (done)
 */
 int main(void)
 {
