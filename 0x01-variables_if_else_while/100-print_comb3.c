@@ -4,25 +4,20 @@
  * Return: 0
 */
 int main(void)
-	int main(void)
 {
-	int tens;
-	int ones;
+	int n;
 
-	for (tens = 0; tens <= 9; tens++)
+	for (n = 0; n <= 99; n++)
 	{
-		for (ones = tens + 1; ones <= 9; ones++)
+		putchar((n / 10) + '0');
+		putchar((n % 10) + '0');
+		if (n != 99)
 		{
-			putchar(tens + '0');
-			putchar(ones + '0');
-
-			if (tens < 8)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
 	return (0);
 }
+
