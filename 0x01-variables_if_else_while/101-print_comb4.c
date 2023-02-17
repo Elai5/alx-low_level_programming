@@ -5,28 +5,27 @@
 */
 int main(void)
 {
-	int i = 0;
-	int j;
-	int count = 0;
+	int number1, number2, number3;
 
-	while (i <= 8)
+	for (number1 = 0; number1 < 8; number1++)
 	{
-		j = i + 1;
-		while (j <= 9)
+		for (number2 = number1 + 1; number2 < 9; number2++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if (count != 44)
+			for (number3 = number2 + 1; number3 < 10; number3++)
 			{
+				putchar((number1 % 10) + '0');
+				putchar((number2 % 10) + '0');
+				putchar((number3 % 10) + '0');
+
+				if (number1 == 7 && number2 == 8 && number3 == 9)
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
-			j++;
-			count++;
 		}
-		i++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
-
