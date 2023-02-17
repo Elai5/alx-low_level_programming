@@ -1,17 +1,17 @@
 #include <studio.h>
 /**
- * main - base i6 lower case
- * Return: 0
+ * main - a 16 letter word
+ * Return:0
 */
 int main(void)
 {
-	char c;
-	int n;
+	int number;
+	char letter;
 
-	for (n = '0'; n <= '9'; n++)
-		putchar(n);
-	for (c = 'a'; c <= 'f'; c++)
-		putchar(c);
+	for (number = 0; number <= 9; number++)
+		putchar(number + '0');
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
