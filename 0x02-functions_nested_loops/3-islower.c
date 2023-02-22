@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- *_isLower - a function to print lowercase
- *
- *@c: parameter to be printed
- *Return: 1 if lowercase
-*and 0 id uppercase
-*/
-int _isLower(int c)
+ * _islower - a function that prints lower rase
+ * @c: parameter to be printed
+ * Return: 1 if lower case
+ * and 0 if not
+ */
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
